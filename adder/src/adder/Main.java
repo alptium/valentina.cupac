@@ -17,7 +17,7 @@ public class Main {
 			System.out.println("System is now doing the calculation...");
 			int sum = firstNumber + secondNumber;
 			
-			System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);	
+			System.out.println("Result of summation " + firstNumber + " + " + secondNumber + " is: " + sum);	
 		}
 		
 	}

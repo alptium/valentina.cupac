@@ -17,7 +17,7 @@ public class Main {
 			System.out.println("System is now doing the calculation...");
 			int difference = firstNumber - secondNumber;
 			
-			System.out.println("The difference between " + firstNumber + " and " + secondNumber + " is: " + difference);	
+			System.out.println("Result of subtraction " + firstNumber + " - " + secondNumber + " is: " + difference);	
 		}
 
 	}
