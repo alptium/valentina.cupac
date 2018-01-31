@@ -1,4 +1,4 @@
-package helloworld;
+package org.alptium.valentinacupac.samples.helloworld;
 
 public class Main {
 

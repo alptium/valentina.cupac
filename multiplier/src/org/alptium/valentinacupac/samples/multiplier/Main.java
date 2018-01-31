@@ -1,4 +1,4 @@
-package multiplier;
+package org.alptium.valentinacupac.samples.multiplier;
 
 import java.util.Scanner;
 

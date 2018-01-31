@@ -1,4 +1,4 @@
-package divider;
+package org.alptium.valentinacupac.samples.divider;
 
 import java.util.Scanner;
 

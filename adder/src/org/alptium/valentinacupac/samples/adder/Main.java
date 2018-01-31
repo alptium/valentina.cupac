@@ -1,4 +1,4 @@
-package adder;
+package org.alptium.valentinacupac.samples.adder;
 
 import java.util.Scanner;
 

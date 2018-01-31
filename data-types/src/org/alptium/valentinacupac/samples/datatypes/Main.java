@@ -1,4 +1,4 @@
-package org.alptium.valentinacupac.demos.datatypes;
+package org.alptium.valentinacupac.samples.datatypes;
 
 public class Main {
 

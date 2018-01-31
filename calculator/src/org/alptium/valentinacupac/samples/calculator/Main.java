@@ -1,4 +1,4 @@
-package calculator;
+package org.alptium.valentinacupac.samples.calculator;
 
 import java.util.Scanner;
 

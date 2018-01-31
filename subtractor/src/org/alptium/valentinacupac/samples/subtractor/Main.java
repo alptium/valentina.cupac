@@ -1,4 +1,4 @@
-package subtractor;
+package org.alptium.valentinacupac.samples.subtractor;
 
 import java.util.Scanner;
 
