@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		try(Scanner sc = new Scanner(System.in)) {
 			
 			System.out.println("Enter your first number");
@@ -33,6 +34,7 @@ public class Main {
 			System.out.println("Second number is: " + secondNumber);
 			System.out.println("The result is: " + result);
 		}
+		
 	}
 
 }
