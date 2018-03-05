@@ -1,5 +1,7 @@
 package hospital;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -11,6 +13,7 @@ public class Main {
 
 		// Object Oriented Programming (OOP)
 		runDemoOop1();
+		runDemoOop12(); // OOP with console reading in/out
 		runDemoOop2();
 	}
 	
@@ -75,6 +78,35 @@ public class Main {
 		System.out.println("Is employed fulltime: " + doctor.isFullTimeEmployee());
 		System.out.println("=============================================");
 	}
+	
+	private static void runDemoOop12() {
+		System.out.println("Running Demo - Object Oriented - Single record...");
+		
+		try(Scanner scanner = new Scanner(System.in)) {
+			System.out.println("Enter the doctor name");
+			String name = scanner.next();
+			
+			System.out.println("Enter the doctor surname");
+			String surname = scanner.next();
+			
+			System.out.println("Enter the doctor birthyear");
+			int birthYear = scanner.nextInt();
+			
+			System.out.println("Enter if the doctor is a full time employee (true/false)");
+			boolean isFullTimeEmployee = scanner.nextBoolean();
+			
+			Doctor doctor = new Doctor(name, surname, birthYear, isFullTimeEmployee);
+			
+			System.out.println("=============================================");
+			System.out.println("Name: " + doctor.getName());
+			System.out.println("Surname: " + doctor.getSurname());
+			System.out.println("Year of Birth: " + doctor.getBirthYear());
+			System.out.println("Is employed fulltime: " + doctor.isFullTimeEmployee());
+			System.out.println("=============================================");
+		}
+	}
+	
+	
 	
 	private static void runDemoOop2() {
 		System.out.println("Running Demo - Object Oriented - Multiple records...");
