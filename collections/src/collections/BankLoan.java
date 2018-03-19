@@ -13,15 +13,7 @@ public class BankLoan {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public double getMaxAmount() {
 		return maxAmount;
-	}
-
-	public void setMaxAmount(double maxAmount) {
-		this.maxAmount = maxAmount;
 	}
 }
