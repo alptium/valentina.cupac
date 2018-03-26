@@ -1,32 +1,20 @@
 package hospital;
 
-public class Doctor {
+public class Doctor extends Person {
 	
-	// Attributes of the class Doctor
-	
-	private String name;
-	private String surname;
 	private int birthYear;
 	private boolean isFullTimeEmployee;
 	
 	// Constructor for the class Doctor
 	
 	public Doctor(String name, String surname, int birthYear, boolean isFullTimeEmployee) {
-		this.name = name;
-		this.surname = surname;
+		super(name, surname);
+		
 		this.birthYear = birthYear;
 		this.isFullTimeEmployee = isFullTimeEmployee;
 	}
 
 	// Methods of the class Doctor
-	
-	public String getName() {
-		return name;
-	}
-	
-	public String getSurname() {
-		return surname;
-	}
 	
 	public int getBirthYear() {
 		return birthYear;
